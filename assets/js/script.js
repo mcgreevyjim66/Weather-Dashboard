@@ -54,7 +54,7 @@ function getCity(){
 
   console.log("getCity");
   cityGeocode = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityItem + "&appid=" + weatherDashboardAPIKey;
-  cityCurrentWeather  = "http://api.openweathermap.org/data/2.5/weather?q=" + cityItem + "&appid=" + weatherDashboardAPIKey + "&units=imperial";
+  cityCurrentWeather  = "https://api.openweathermap.org/data/2.5/weather?q=" + cityItem + "&appid=" + weatherDashboardAPIKey + "&units=imperial";
 
   fetch(cityGeocode)
   .then(function (response) {
