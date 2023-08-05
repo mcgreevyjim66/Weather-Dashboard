@@ -6,7 +6,7 @@ var cityResponse = "";
 
 var weatherDashboardAPIKey = "33cc0670166e1f6dfa885d1ff70e5f71";
 
-var cityCurrentWeather  = "http://api.openweathermap.org/data/2.5/weather?q=" + cityItem + "&appid=" + weatherDashboardAPIKey + "&units=imperial";
+var cityCurrentWeather  = "https://api.openweathermap.org/data/2.5/weather?q=" + cityItem + "&appid=" + weatherDashboardAPIKey + "&units=imperial";
 
 var cityGeocode = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityItem + "&appid=" + weatherDashboardAPIKey;
 
