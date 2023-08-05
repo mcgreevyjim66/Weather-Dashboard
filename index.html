@@ -36,14 +36,14 @@
             <h3>Search for a city:</h3>
             <form id="city-form">
                 <input type="text" class="form-input w-100" id="city-input" name="city-input" placeholder="Enter City name" />
-                <button id="add-city-btn" class="btn btn-info">Search</button>
+                <button id="add-city-btn" class="btn btn-info m-0 d-flex justify-content-center" style="width: 100%; max-width: 100%;">Search</button>
             </form>
 
-             <!-- <ul id="city-list"></ul> -->
+            <div id="search-cty-btn-list">
 
-
-
-              <ul id= "city-list" class="list-group"></ul>
+            </div> 
+            <!-- <ul id="city-list"></ul> -->
+            <!-- <ul id= "city-list" class="list-group"></ul> -->
         </div>  
 
         <div class="col-9">
@@ -51,9 +51,10 @@
           <div class = "row col-12">
             <div class = "border">
               <h3 id="current-weather-h3"> Current Weather</h3>
+              <img id="current-weather-icon" src="${iconURL}" alt="Weather icon">`;
               <h4 id="current-weather-temp" class = "text-black">Temp:</h4>
               <h4 id="current-weather-wind">Wind:</h4>
-              <h4 id="current-weather-temp">Humidity:</h4>
+              <h4 id="current-weather-humid">Humidity:</h4>
             </div>
             <div class = "border col-12 text-black text-lg-start">
              <h3>5 Day Forecast:</h3>
@@ -63,7 +64,7 @@
                   <div class="card bg-dark text-light">
                     <div class="card-body">
                       <p id="forecast-date-0">Date:</p>
-                      <p id="forecast-icon-0">icon</p>
+                      <img id="forecast-icon-0" src="${iconURL}" alt="Weather icon">`;
                       <p id="forecast-temp-0">Temp:</p>
                       <p id="forecast-wind-0">Wind:</p>
                       <p id="forecast-humid-0">Humidity:</p>
@@ -74,7 +75,7 @@
                   <div class="card bg-dark text-light">
                     <div class="card-body">
                       <p id="forecast-date-1">Date:</p>
-                      <p id="forecast-icon-1">icon</p>
+                      <img id="forecast-icon-1" src="${iconURL}" alt="Weather icon">`;
                       <p id="forecast-temp-1">Temp:</p>
                       <p id="forecast-wind-1">Wind:</p>
                       <p id="forecast-humid-1">Humidity:</p>
@@ -85,7 +86,7 @@
                   <div class="card bg-dark text-light">
                     <div class="card-body">
                       <p id="forecast-date-2">Date:</p>
-                      <p id="forecast-icon-2">icon</p>
+                      <img id="forecast-icon-2" src="${iconURL}" alt="Weather icon">`;
                       <p id="forecast-temp-2">Temp:</p>
                       <p id="forecast-wind-2">Wind:</p>
                       <p id="forecast-humid-2">Humidity:</p>
@@ -96,7 +97,7 @@
                   <div class="card bg-dark text-light">
                     <div class="card-body">
                       <p id="forecast-date-3">Date:</p>
-                      <p id="forecast-icon-3">icon</p>
+                      <img id="forecast-icon-3" src="${iconURL}" alt="Weather icon">`;
                       <p id="forecast-temp-3">Temp:</p>
                       <p id="forecast-wind-3">Wind:</p>
                       <p id="forecast-humid-3">Humidity:</p>
@@ -107,7 +108,7 @@
                   <div class="card bg-dark text-light">
                     <div class="card-body">
                       <p id="forecast-date-4">Date:</p>
-                      <p id="forecast-icon-4">icon</p>
+                      <img id="forecast-icon-4" src="${iconURL}" alt="Weather icon">`;
                       <p id="forecast-temp-4">Temp:</p>
                       <p id="forecast-wind-4">Wind:</p>
                       <p id="forecast-humid-4">Humidity:</p>
